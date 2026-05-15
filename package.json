@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:dashboard": "next dev dashboard --port 3001",
-    "dev:saas": "next dev templates/threadcraft --port 3000",
-    "build:dashboard": "next build dashboard",
-    "build:saas": "next build templates/threadcraft",
+    "dev:dashboard": "cd dashboard && npm run dev -- --port 3001",
+    "dev:saas": "cd templates/threadcraft && npm run dev -- --port 3000",
+    "build:dashboard": "cd dashboard && npm run build",
+    "build:saas": "cd templates/threadcraft && npm run build",
     "run:agent": "tsx agent/orchestrator-runner.ts",
     "test": "echo \"running tests\""
   },

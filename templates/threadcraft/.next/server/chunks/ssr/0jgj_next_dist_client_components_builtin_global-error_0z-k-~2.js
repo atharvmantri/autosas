@@ -1,0 +1,3 @@
+module.exports=[61208,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(8897);a.n(d("[project]/templates/threadcraft/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},50363,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(8897);a.n(d("[project]/templates/threadcraft/node_modules/next/dist/client/components/builtin/global-error.js"))},60467,a=>{"use strict";a.i(61208);var b=a.i(50363);a.n(b)},68024,a=>{a.n(a.i(60467))}];
+
+//# sourceMappingURL=0jgj_next_dist_client_components_builtin_global-error_0z-k-~2.js.map

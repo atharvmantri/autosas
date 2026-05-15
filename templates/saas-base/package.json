@@ -9,18 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@withlocus/checkout-react": "*",
+    "axios": "*",
     "next": "*",
     "react": "*",
-    "react-dom": "*",
-    "@withlocus/checkout-react": "*"
+    "react-dom": "*"
   },
   "devDependencies": {
-    "typescript": "*",
     "@types/node": "*",
     "@types/react": "*",
     "@types/react-dom": "*",
-    "tailwindcss": "*",
+    "autoprefixer": "*",
     "postcss": "*",
-    "autoprefixer": "*"
+    "tailwindcss": "*",
+    "typescript": "*"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/checkout/route": "/api/checkout",
+  "/api/generate-thread/route": "/api/generate-thread",
+  "/api/webhook/route": "/api/webhook",
+  "/dashboard/page": "/dashboard",
+  "/page": "/",
+  "/service/page": "/service"
+}

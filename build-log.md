@@ -20,3 +20,9 @@
 - Fixes applied: (1) Installed @tailwindcss/postcss for TailwindCSS v4, (2) Changed globals.css to use @import "tailwindcss", (3) Removed @shared/types import from Pricing.tsx, defined interface locally, (4) Fixed checkout route to avoid template literal parsing issues
 - Test output: Build succeeded. Static pages: /, /dashboard, /service. Dynamic routes: /api/checkout, /api/webhook.
 - Notes: Template is standalone and reusable for any micro-SaaS.
+
+## Step 8: Create ThreadCraft (First Micro-SaaS)
+- Status: ✅ PASS
+- Files created/modified: templates/threadcraft/ (copied from saas-base, then customized: app/page.tsx with ThreadCraft branding, app/service/page.tsx with YouTube URL input and thread output, app/api/generate-thread/route.ts with OpenAI thread generation, package.json updated with name "threadcraft" and openai dependency)
+- Test output: Build succeeded. Routes: / (landing), /service (YouTube→Threads), /api/generate-thread (AI endpoint), /api/checkout, /api/webhook, /dashboard.
+- Notes: ThreadCraft uses OpenAI GPT-4o-mini to convert YouTube videos to Twitter threads. Fallback thread returned if API fails.
